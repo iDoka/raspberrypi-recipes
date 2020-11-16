@@ -1,10 +1,17 @@
 # RaspberryPi Gotchas
 
+URL: https://github.com/iDoka/raspberrypi-gotchas
+
+## ⚠️ Note
+
+Here my collection of **practical** RPi's recipes.
+I checked or created this recipes by my hands.
+
 ## TOC
 
 * [RTC setup](RTC.md)
 * [CAN bus](CAN.md)
-* [Software Defined Radio](SDR.md)
+* [SDR (Software Defined Radio)](SDR.md)
 * [Speed up booting](fastboot.md)
 * [Display related stuff](display.md)
 * [Video related stuff](video.md)

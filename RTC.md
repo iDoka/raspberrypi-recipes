@@ -16,11 +16,13 @@ dtoverlay=i2c-rtc,ds3231
 then run:
 ```
 sudo apt-get install python-smbus python3-smbus i2c-tools ntpsec-ntpdate -y
+```
+Note: `ntpdate` packet is deprecated (Nov 2020), please install `ntpsec-ntpdate` instread.
+
+
+```
 sudo i2cdetect -y 1
 ```
-Note: `ntpdate` packet is deprecated (Nov 2020).
-
-
 You should see `0x68` address, now you can reboot:
 ```
 sudo reboot
