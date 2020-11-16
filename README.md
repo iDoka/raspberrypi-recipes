@@ -2,6 +2,7 @@
 
 ## TOC
 
+* [RTC setup](RTC.md)
 * [CAN bus](CAN.md)
 * [Software Defined Radio](SDR.md)
 * [Speed up booting](fastboot.md)
