@@ -13,6 +13,7 @@ I checked or created this recipes by my hands.
 * [CAN bus](CAN.md)
 * [SDR (Software Defined Radio)](SDR.md)
 * [Speed up booting](fastboot.md)
+* [Network related stuff](networking.md)
 * [Display related stuff](display.md)
 * [Video related stuff](video.md)
 * [Audio related stuff](audio.md)
@@ -35,6 +36,14 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo reboot
 ```
+
+Updating Firmware (Optional):
+```
+sudo rpi-update
+sudo reboot
+```
+
+
 
 Install neccessary packet:
 ```
