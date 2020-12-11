@@ -7,7 +7,7 @@
 
 I describe my dual CAN setup with MCP2515 on two separated SPI interfaces.
 
-Please use supplied in `overlays` folder `mcp2515-can1-overlay.dts`:
+Please use supplied in folder `overlays` file `mcp2515-can1-overlay.dts`:
 
 ```
 dtc -I dts -O dtb -o mcp2515-can1.dtbo mcp2515-can1-overlay.dts
