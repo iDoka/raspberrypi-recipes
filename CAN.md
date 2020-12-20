@@ -177,6 +177,65 @@ List of available utils:
 ## Usage
 
 
+### Python
+
+python-can:
+```
+git clone --depth=1 https://github.com/hardbyte/python-can.git
+cd python-can
+git checkout master
+python setup.py clean
+python setup.py build
+sudo python setup.py install
+
+python setup.py clean
+python3 setup.py build
+sudo python3 setup.py install
+cd ..
+```
+
+python-can-isotp:
+```
+pip install can-isotp
+```
+or build lastest version:
+```
+git clone --depth=1 https://github.com/pylessard/python-can-isotp.git
+cd python-can-isotp
+python3 setup.py clean
+python3 setup.py build
+sudo python3 setup.py install
+cd ..
+```
+
+
+python-udsoncan:
+```
+pip install udsoncan
+```
+or build lastest version:
+```
+git clone --depth=1 https://github.com/pylessard/python-udsoncan.git
+cd python-udsoncan
+python3 setup.py clean
+python3 setup.py build
+sudo python3 setup.py install
+cd ..
+```
+
+
+Car security exploration tool:
+```
+git clone --depth=1 https://github.com/CaringCaribou/caringcaribou
+cd caringcaribou/tool
+
+cd ...
+```
+
+
+
+
+
 ### Common CAN things
 
 The CAN bus statistics:
@@ -211,7 +270,24 @@ Just for playground stuff or complex scenarios.
 ### Hardware CAN
 
 
+RPi & MCP2515 board wiring diagram. For RPi side specified physical pin number on IDC-40 header.
 
+#### can0
+
+* SCK ->
+* MISO ->
+* MOSI ->
+* CSN ->
+* IRQ ->
+
+
+#### can1
+
+* SCK ->
+* MISO ->
+* MOSI ->
+* CSN ->
+* IRQ ->
 
 ## Links
 
