@@ -30,6 +30,11 @@ WARNING: instread of `/dev/sdX` use your uSD card device!!! (please double check
 
 ## First steps after Raspbian install
 
+Run config util if it don't start automaticly at the first run:
+```
+raspi-config
+```
+
 Update all:
 ```
 sudo apt-get update -y
